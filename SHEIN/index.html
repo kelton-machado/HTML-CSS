@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário HTML</title>
+</head>
+<body>
+  <form action="http://localhost/site/login.php" method="POST">
+    <label for="user">Usuário:</label>
+    <input type="text" id="user" name="user" /><br><br>
+
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" /><br><br>
+
+    <label for="submit">Enviar:</label>
+    <input type="submit" id="submit" value="Enviar" /><br><br>
+  </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário HTML</title>
+</head>
+<body>
+  <form action="http://localhost/meusite/login.php" method="POST">
+    <label for="user">Usuário:</label>
+    <input type="text" id="user" name="user" required
+        oninvalid="this.setCustomValidity('Preencha o nome do usuário')"
+        onvalid="this.setCustomValidity('')"
+    /><br><br>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required
+        oninvalid="this.setCustomValidity('Preencha a senha')"
+        onvalid="this.setCustomValidity('')"
+    /><br><br>
+
+    <label for="submit">Enviar:</label>
+    <input type="submit" id="submit" value="Enviar" /><br><br>
+  </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FORMULÁRIO REGISTER</title>
+
+    <link rel="stylesheet" href="register_form.css">
+
+</head>
+<body>
+    
+    <form  action="http://localhost/site/register.php" method="post" autocomplete="on" >
+
+        <h1>Registre-se</h1>
+
+        <p> <label for="name"></label> 
+            <input type="text" name="name" id="name" required size="20" placeholder="Nome do usuário"> </p>
+
+        <p><label for="phone"></label>
+            <input type="tel" name="phone" id="phone" required size="20" placeholder="Tel: (xx) xxxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$"></p>
+
+        <p><label for="address"></label>
+            <input type="text" name="address" id="address" required size="20" placeholder="Seu endereço"></p>
+
+        <p><label for="email"></label>
+            <input type="email" name="email" id="email" required size="20" placeholder="Seu e-mail"></p>
+        
+        <p><label for=""></label>
+            <input id="push0" type="submit" value="Enviar">
+            <input id="push1" type="reset" value="Limpar"></p>
+
+    </form>
+</body>
+
+</html>

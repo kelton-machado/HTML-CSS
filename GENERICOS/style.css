@@ -1,0 +1,71 @@
+table{
+     border-collapse: collapse;
+     width: 800px;
+}
+
+caption{
+    background-color: gray;
+    color:white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+}
+tr.letras{
+    color: brown;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr.numeros{
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr.soma{
+    background-color: gray;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: right;
+}
+
+th{
+    border: 1px solid black;
+}
+
+.letras{
+   color: brown;
+   border: 1px solid black;
+   text-align: center;
+
+}
+
+.numeros{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#saldo{
+    color: blue;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto{
+    color: rgb(255, 0, 208);
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#total{
+    text-align: center;
+    font-weight: bold;
+}

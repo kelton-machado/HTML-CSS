@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(221, 216, 216);
+}
+
+form{
+    background-color: ghostwhite;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    margin-top: 50px;
+    padding: 0 0 14px 0;
+    width: 300px;
+}
+
+h1, p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+h1{
+    color: rgba(25, 63, 235, 0.952);
+    padding: 10px;
+    margin: 10px;
+}
+
+#push0 {
+    background-color: rgba(25, 63, 235, 0.952);
+    border-color: gray;
+    color: white;
+}
+
+#push1 {
+    background-color: rgba(25, 63, 235, 0.952);
+    border-color: gray;
+    color: white;
+}
+
+p.ident{
+    padding: 10px;
+    margin: 10px;
+}
